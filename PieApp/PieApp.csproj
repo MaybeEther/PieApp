@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="220px-SNice.png" />
+    <None Remove="521-5213204_clipart-burj-khalifa-silhouette-vector-png-download.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="220px-SNice.png" />
+    <Resource Include="521-5213204_clipart-burj-khalifa-silhouette-vector-png-download.png" />
+  </ItemGroup>
+
+</Project>
