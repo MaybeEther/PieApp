@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import xlrd
 ##########################################
-mycolors = [""] # can be used by user if wanted
 x = []
 a = []
 temp = ("test.xls") # file selecter
